@@ -1,0 +1,8 @@
+numpy
+pandas
+pickle-mixin
+streamlit
+yfinance
+praw
+plotly
+openpyxl
