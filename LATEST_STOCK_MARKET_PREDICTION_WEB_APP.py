@@ -44,9 +44,9 @@ else:
    
 # Reddit API setup
 reddit = praw.Reddit(
-        client_id='p8fHIpWa4uoINH_b-5EvDg',
-        client_secret='Ly_z9P63eWbyX_VwfkIFJYGcW71C_A',
-        user_agent='stockpriceprediction'
+        client_id='a6AxRkPqRq6gachMM-7jbw',
+        client_secret='Gru6JDRqHtBnxIw55RAagtGh0PQbdQ',
+        user_agent='Stockpriceprediction'
 )
 
 # Adding a selectbox for filtering Reddit posts
