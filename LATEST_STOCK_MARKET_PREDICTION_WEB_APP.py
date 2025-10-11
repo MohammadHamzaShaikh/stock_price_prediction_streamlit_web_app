@@ -2,7 +2,6 @@
 """
 Created on Mon Jul 15 23:14:03 2024
 
-@author: umars
 """
 
 import numpy as np
@@ -42,12 +41,8 @@ if not nvidia_data.empty:
 else:
     st.write("No data found for the specified period.")
    
-# Reddit API setup
-reddit = praw.Reddit(
-        client_id='a6AxRkPqRq6gachMM-7jbw',
-        client_secret='Gru6JDRqHtBnxIw55RAagtGh0PQbdQ',
-        user_agent='Stockpriceprediction'
-)
+# Reddit API setup (configure your reddit api)
+
 
 # Adding a selectbox for filtering Reddit posts
 st.write("## Reddit Posts")
@@ -207,3 +202,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
