@@ -14,21 +14,7 @@ import plotly.graph_objs as go
 
 st.set_page_config(
     page_title="STOCK PRICE PREDICTION WEB APP",
-    page_icon="images/stock-exchange.png"
     )
-
-page_bg_img = """
-<style>
-[data-testid="stAppViewContainer"]{
-background-image: url("https://www.shutterstock.com/image-vector/abstract-financial-chart-trend-line-260nw-766689100.jpg");
-background-size: cover;
-}
-</style>
-"""
-st.markdown(page_bg_img, unsafe_allow_html=True)
-
-st.image("images/nvidia.jpeg", width=180)
-
 
 # Display historical data
 st.write("## NVIDIA Historical Data (2022-2024)")
@@ -202,4 +188,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 
